@@ -1,55 +1,84 @@
-.header{
-    display: flex;
-    justify-content: space-between;
-    border: 2px solid black;
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid black;
 }
 
-.logo{
-    width: 120px;
-    height: 120px;
-    border-radius: 100px;
+.logo {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
 }
 
-.logo-container{
-    margin: 5px 10px 5px 25px;
+.logo-container {
+  margin: 5px 10px 5px 25px;
 }
 
-.nav-items{
-    padding: 0px 20px;
+.nav-items {
+  padding: 0px 20px;
 }
 
-.nav-items > ul{
-    display: flex;
-    list-style: none;
-    font-size: 20px;
+.nav-items > ul {
+  display: flex;
+  list-style: none;
+  font-size: 20px;
 }
 
-.nav-items > ul> li{
-    padding: 10px;
-    margin: 10px;
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
 }
 
-/* * Restraunt Card CSS */
+/* * Login */
+.login{
+    cursor: pointer;
+    padding: 0 20px;
+}
 
-.res-container{
+/* * Body */
+.body{
     display: flex;
     flex-wrap: wrap;
 }
 
-.res-card{
-    width: 200px;
-    height: 350px;
-    padding: 5px;
-    background-color: beige;
-    margin: 5px;
+.filter{
+    margin-left: 10px;
 }
 
-.res-logo{
-    width: 200px;
-    height: 150px;
+/* * Restraunt Card CSS */
+
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.res-card:hover{
-    cursor: pointer;
-    border: 1px solid black
+.res-card {
+  width: 200px;
+  height: 350px;
+  padding: 5px;
+  background-color: beige;
+  margin: 5px;
+}
+
+.res-logo {
+  width: 200px;
+  height: 150px;
+}
+
+.res-card:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+/* * Shimmer Cards */
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shimmer-card{
+  margin: 20px;
+  width: 200px;
+  height: 350px;
+  background-color: rgb(197, 197, 179);
 }
